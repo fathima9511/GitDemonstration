@@ -5,6 +5,14 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+
+            Student student = new Student();
+
+            student.Name = "Fathima";
+            student.Age = 25;
+            student.Subject = "ICT";
+
+            student.Greeting();
         }
 
         public string ConvertToUpperCase(string name)
